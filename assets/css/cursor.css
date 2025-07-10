@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+
+.cursor, .cursor__follower {
+  cursor: url(img/almost_transparent.png), default !important;
+}
+
+.cursor {
+  left: 0px;
+  top: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: #cf000f;
+  position: absolute;
+  border-radius: 100px;
+  pointer-events: none !important;
+}
+
+.cursor__follower {
+  transition: transform .4s;
+  width: 6px;
+  height: 6px;
+  pointer-events: none !important;
+}

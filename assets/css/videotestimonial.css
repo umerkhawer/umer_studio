@@ -1,0 +1,62 @@
+body {
+    background-color: #000;
+}
+.box-mov {
+    border: 1px solid #cf000f;
+    height: 342px;
+    cursor: pointer;
+    position: relative;
+}
+.box-mov .mov-des {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('http://mouse.latercera.com/wp-content/uploads/2018/03/Dragon-Ball-1-900x494.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+.box-mov .mov-des .des-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-mov .mov-des .des-text p {
+    margin: 0;
+    text-transform: uppercase;
+}
+.box-mov .mov-des img {
+    height: 100%;
+}
+.box-mov .mov-des.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+.kids-text {
+    display: inline-flex;
+}
+.kids-text span {
+    display: inline-block;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-weight: bold;
+    width: 22px;
+    text-align: center;
+    margin: 0 4px 0 0;
+    letter-spacing: 0;
+    color: #fff;
+    transform: rotate(6deg);
+}

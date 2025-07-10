@@ -1,0 +1,23 @@
+.new-container {
+    max-width: 1400px;
+}
+.col-xl-6.center-div {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.talk-sec .vlt-section__content {
+    padding-bottom: 0;
+}
+.video-play {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    margin: 0 auto;
+    left: 43%;
+}
+.video-play i {
+ color:red;
+ font-size: 60px;
+ cursor:pointer;
+}
